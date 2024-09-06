@@ -1,3 +1,3 @@
-# Admin Kanban Enven Management CRM
+# Admin Kanban Event Management CRM
 
 Author: [Abhijay Rajvansh](https://abhijayrajvansh.com)
