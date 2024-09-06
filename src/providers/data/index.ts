@@ -12,6 +12,7 @@ export const API_URL = `${API_BASE_URL}/graphql`;
 export const WS_URL = "wss://api.crm.refine.dev/graphql";
 
 export const client = new GraphQLClient(API_URL, {
+  // @ts-ignore
   fetch: (url: string, options: RequestInit) => {
     try {
       return fetchWrapper(url, options);
